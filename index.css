@@ -1,0 +1,45 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    background-color: rgb(241, 241, 241);
+}
+.content{
+    border: 1px solid black;
+    margin: 70px 0px 70px 65px;
+    height: 500px;
+    width: 90%;
+    background-color: white;
+}
+
+.qt{
+    position: relative;
+    bottom: 250px;
+    left: 300px;
+    height: 70px;
+}
+.bg{
+    position: relative;
+    top: 30px;
+    left: 630px;
+    height:400px;
+    width: 400px;
+}
+
+.curve{
+    position: relative;
+    top: 99px;
+    right: 491px;
+    height: 100px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
