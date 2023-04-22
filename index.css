@@ -43,3 +43,16 @@ body{
 .attribution a { 
     color: hsl(228, 45%, 44%);
 }
+
+/* @media (min-width:40%) {
+        .content{
+            width: 80px;
+            height: 80px;
+            margin: 0px;
+        }
+
+        .qt .bg .curve{
+            width:20%;
+            height: 20%;
+        }
+} */
