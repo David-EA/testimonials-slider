@@ -7,32 +7,102 @@ body{
     background-color: rgb(241, 241, 241);
 }
 .content{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 70px 0px 70px 65px;
     height: 500px;
     width: 90%;
     background-color: white;
+    z-index: -1;
 }
 
 .qt{
     position: relative;
-    bottom: 250px;
+    bottom: 221px;
     left: 300px;
-    height: 70px;
+    height: 50px;
+    z-index: 1;
 }
 .bg{
     position: relative;
     top: 30px;
-    left: 630px;
+    left: 500px;
     height:400px;
-    width: 400px;
+    width: 450px;
+    z-index: 1;
 }
 
 .curve{
     position: relative;
     top: 99px;
-    right: 491px;
+    right: 591px;
     height: 100px;
+    z-index: 1;
+}
+
+.slider{
+  width: fit-content;
+  height: fit-content;
+  margin: 0 auto;
+  position: relative;
+  bottom: 330px;
+  right: 10px;
+  z-index: 3;
+    border: 1px solid black;
+  /* IN THE END */
+  overflow: hidden;
+} 
+.slide{
+    /* display: flex;
+    /* border: 1px solid black; 
+    position: relative;
+    bottom: 334px;
+    z-index: 2;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 240px; */
+  /* position: absolute; */
+  /* bottom: 195px;
+  left: 300px; */
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+   /* THIS creates the animation! */
+   transition: transform 1s;
+}
+
+ .slide p{
+    font-size: 22px;
+    z-index: 4;
+    /* padding-bottom: 50px; */
+}
+
+.tanya{
+    width: 360px;
+    height: 325px;
+    z-index: 3;
+}
+
+.buttons{
+    border-radius: 20px;
+    background-color: rgb(15, 14, 14);
+    display: inline-block;
+    position: absolute;
+    bottom: 170px;
+    left: 700px;
+    z-index: 4;
+    width: 40px;
+    justify-content: space-between;
+}
+
+.btn--left, .btn--right{
+    border: none;
+    background-color: whitesmoke;
+    font-size: 10px;
+    padding: 0px;
+    color: rgb(211, 199, 199);
 }
 
 .attribution { 
