@@ -33,21 +33,21 @@ body{
 
 .curve{
     position: relative;
-    top: 99px;
-    right: 591px;
+    top: 100px;
+    right: 518px;
     height: 100px;
     z-index: 1;
 }
 
 .slider{
   width: fit-content;
-  height: fit-content;
+  /* height: fit-content; */
   margin: 0 auto;
   position: relative;
-  bottom: 330px;
-  right: 10px;
+  bottom: 336px;
+  right: 12px;
   z-index: 3;
-    border: 1px solid black;
+    /* border: 1px solid black; */
   /* IN THE END */
   overflow: hidden;
 } 
@@ -60,7 +60,7 @@ body{
     height: fit-content;
     width: fit-content;
     margin-left: 240px; */
-  /* position: absolute; */
+  /* position: relative; */
   /* bottom: 195px;
   left: 300px; */
   width: fit-content;
@@ -76,33 +76,50 @@ body{
  .slide p{
     font-size: 22px;
     z-index: 4;
+    padding-top: 35px;
     /* padding-bottom: 50px; */
 }
 
 .tanya{
     width: 360px;
     height: 325px;
+    box-shadow: 25px 1px black;
     z-index: 3;
+    /* box-shadow: 3px solid black; */
 }
 
 .buttons{
-    border-radius: 20px;
-    background-color: rgb(15, 14, 14);
+    border-radius: 25px;
+    background-color: white;
     display: inline-block;
     position: absolute;
     bottom: 170px;
-    left: 700px;
+    left: 722px;
     z-index: 4;
-    width: 40px;
+    width: 68px;
+    height: 35px;
     justify-content: space-between;
 }
 
-.btn--left, .btn--right{
+.btn--left{
     border: none;
-    background-color: whitesmoke;
-    font-size: 10px;
+    background-color: white;
+    color: grey;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 14px;
+    margin-top: 7px;
+    /* font-weight: bold; */
+}
+
+.btn--right{
+    border: none;
+    background-color: white;
+    color: grey;
+    font-size: 18px;
     padding: 0px;
-    color: rgb(211, 199, 199);
+    margin-left: 8px;
+    /* font-weight: bold; */
 }
 
 .attribution { 
